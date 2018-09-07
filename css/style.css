@@ -1,0 +1,123 @@
+@font-face { font-family: Brandon; src: url('../brandon/Brandon_reg.otf'); }
+@font-face { font-family: Brandon; font-weight: bold; src: url('../brandon/Brandon_bld.otf'); }
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: "Brandon", Helvetica;
+    color: #090909;
+}
+
+/* Background image  */
+.intro-pic {
+    /* The image used */
+    background-image: url("../img/me-dotted.jpeg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    z-index: 0;
+}
+
+.title {
+  position: fixed;
+  top: 0px;
+  left: 30px;
+  margin: 2em;
+  padding-top: 20px;
+}
+
+/* Menu bar */
+.nav-pos {
+  position: fixed;
+  top: 0px;
+  right: 30px;
+}
+
+.logo-pos {
+  position: fixed;
+  top: 0px;
+}
+
+.nav-pad {
+  padding-top: 20px;
+}
+
+nav ul {
+  margin: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin: 1em;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #090909;
+  font-size: 80%;
+  letter-spacing: 5px;
+}
+
+/* container */
+.container {
+  display: table;
+  width: 100%;
+  height: 3000px;
+  background-color: #fff;
+}
+.row {
+  display: table-row;
+  height: 33%;
+}
+.cell {
+  display: table-cell;
+  position: relative;
+}
+
+.new-header,
+.new-content,
+.new-footer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  clip: rect(auto, auto, auto, auto);
+}
+
+.intro {
+  padding: 100px 45px;
+  /* height: 50%; */
+}
+
+.blue {
+  color: #19BDFA;
+}
+
+.white {
+  color: White;
+}
+
+.subtitle {
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-size: 200%;
+  text-align: center;
+}
+
+.paragraph {
+  font-family: Helvetica;
+  font-weight: lighter;
+  text-align: center;
+  line-height: 200%;
+}
